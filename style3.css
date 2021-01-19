@@ -1,0 +1,64 @@
+body
+   {
+    	background-color:gold;
+    }
+
+h1
+    {
+    	background-color:ghostwhite;
+    font-family:'langar', cursive;
+    font-size: 40px;
+    color: black;
+    border: solid;
+    }
+
+h2
+    {
+    font-family:'langar' , cursive;
+    font-size: 30px;
+    color: black;
+    }
+
+
+p
+    {
+    font-family:'langar' , cursive;
+    font-size: 20px;
+    color: black;
+    }
+     
+
+a:link, a:visited
+    {
+    background-color: ghostwhite;
+    color: black;
+    text-allign: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 15px;
+    } 
+
+
+a:hover, a:active
+    {
+    	background-color: gold;
+    	color: black;
+    }
+
+
+img:hover
+    {
+    	animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
+
+
+ @keyframes shake{
+    
+    	50% {transform: translate(-1px, 2px)  rotate(-1deg);}
+    }       
+
+
+
+
